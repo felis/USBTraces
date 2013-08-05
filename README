@@ -1,0 +1,5 @@
+This is a collection of USB protocol traces for various devices predominantly captured under MS Windows and GNU/Linux OSes
+using Totalphase Beagle 480 USB protocol analyzer.
+
+The Totalphase Data Center software (free download for Windows/Linux -> http://www.totalphase.com/products/data_center/ )
+is necessary to view traces with .tdc extension.
