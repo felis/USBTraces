@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting test.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting test.
+
+ERROR: 05, left: 32, read 0
+Configuring error: 05 Can't get USB_INTERFACE_DESCRIPTOR stream.
+Total endpoints = 1

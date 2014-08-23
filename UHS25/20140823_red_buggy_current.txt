@@ -1,0 +1,163 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting test.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting test.
+
+MS ConfigureDevice
+MS Init
+Addr:01
+NC:01
+Conf.Val: 01
+Iface Num: 00
+Alt.Set: 00
+Endpoint descriptor:
+Length:		07
+Type:		05
+Address:	01
+Attributes:	02
+MaxPktSize:	0040
+Poll Intrv:	00
+Conf.Val: 01
+Iface Num: 00
+Alt.Set: 00
+Endpoint descriptor:
+Length:		07
+Type:		05
+Address:	82
+Attributes:	02
+MaxPktSize:	0040
+Poll Intrv:	00
+Conf:01
+MaxLUN: 00
+
+Inquiry
+---------
+CBW.dCBWTag: 00000001
+CBW:		OK
+Data Stage:	OK
+CSW:		OK
+
+
+TestUnitReady
+-----------------
+CBW.dCBWTag: 00000002
+CBW:		OK
+Data Stage:	OK
+CSW:		OK
+
+SCSI Error: 01
+LUN: 00
+
+RequestSense
+----------------
+CBW.dCBWTag: 00000003
+CBW:		OK
+Data Stage:	OK
+CSW:		OK
+
+Response Code: 70
+Sense Key: 06
+Add Sense Code: 28
+Add Sense Qual: 00
+
+TestUnitReady
+-----------------
+CBW.dCBWTag: 00000004
+CBW:		OK
+Data Stage:	OK
+CSW:		OK
+
+
+ReadCapacity
+---------------
+CBW.dCBWTag: 00000005
+CBW:		OK
+Data Stage:	OK
+CSW:		OK
+
+>>>>>>>>>>>>>>>>CAPACITY OK ON LUN: 00
+0003C9FF00000200
+
+
+
+ModeSense
+------------
+CBW.dCBWTag: 00000006
+
+ResetRecovery
+-----------------
+CBW:		OK
+Data Stage:	OK
+USB Error: 04
+Index: 01
+============================ CSW: 04
+Gen SCSI Err: 04
+LUN: 00
+
+TestUnitReady
+-----------------
+CBW.dCBWTag: 00000007
+
+ResetRecovery
+-----------------
+CBW:		OK
+Data Stage:	OK
+USB Error: 04
+Index: 01
+============================ CSW: 04
+Gen SCSI Err: 04
+LUN: 00
+
+ReadCapacity
+---------------
+CBW.dCBWTag: 00000008
+USB Error: 04
+Index: 01
+============================ DAT: 04
+
+ResetRecovery
+-----------------
+
+ResetRecovery
+-----------------
+Gen SCSI Err: 04
+LUN: 00
+
+TestUnitReady
+-----------------
+CBW.dCBWTag: 00000009
+USB Error: 04
+Index: 02
+============================ CBW: 04
+
+ResetRecovery
+-----------------
